@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="no_of_books" label="No of books" language="en" table="x_624695_librarym_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>no_of_books</element>
+            <help/>
+            <hint/>
+            <label>No of books</label>
+            <language>en</language>
+            <name>x_624695_librarym_user</name>
+            <plural>No of books</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 03:41:32</sys_created_on>
+            <sys_id>bd72fa982f68301055249dacf699b6ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>No of books</sys_name>
+            <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+            <sys_update_name>sys_documentation_x_624695_librarym_user_no_of_books_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 03:41:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

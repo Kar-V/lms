@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Issue books" max_length="40" name="x_624695_librarym_issue_books" type="collection">
+        <element label="Book Id" max_length="40" name="book_id" type="string"/>
+        <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
+        <element label="Issue Date" max_length="40" name="issue_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Issued" value="issued"/>
+                <element inactive_on_update="false" label="Not Issued" value="nissued"/>
+            </choice>
+        </element>
+        <element label="User Id" max_length="40" name="user_id" type="string"/>
+    </element>
+</database>

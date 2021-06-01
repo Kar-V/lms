@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User" max_length="40" name="x_624695_librarym_user" type="collection">
+        <element choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CIVIL" value="civ"/>
+                <element inactive_on_update="false" label="CSE" value="cs"/>
+                <element inactive_on_update="false" label="ECE" value="ece"/>
+                <element inactive_on_update="false" label="EEE" value="eee"/>
+                <element inactive_on_update="false" label="IT" value="it"/>
+                <element inactive_on_update="false" label="MECHANICAL" value="mech"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="No of books" max_length="40" name="no_of_books" type="integer"/>
+        <element label="User Id" max_length="40" name="user_id" type="string"/>
+        <element choice="1" label="Year" max_length="40" name="year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="I" value="first"/>
+                <element inactive_on_update="false" label="II" value="Second"/>
+                <element inactive_on_update="false" label="III" value="Third"/>
+                <element inactive_on_update="false" label="IV" value="Fourth"/>
+            </choice>
+        </element>
+    </element>
+</database>

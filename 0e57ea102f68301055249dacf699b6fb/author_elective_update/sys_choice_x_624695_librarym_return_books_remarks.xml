@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="remarks" table="x_624695_librarym_return_books" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>remarks</element>
+            <name>x_624695_librarym_return_books</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 03:12:08</sys_created_on>
+            <sys_id>97bbee142f68301055249dacf699b69b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>remarks</sys_name>
+            <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+            <sys_update_name>sys_choice_x_624695_librarym_return_books_remarks</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 03:12:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remarks</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2-Book Torn</label>
+            <language>en</language>
+            <name>x_624695_librarym_return_books</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 03:59:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de767e1c2f68301055249dacf699b666</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 03:59:48</sys_updated_on>
+            <value>bk_t</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remarks</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3-Pages Missing</label>
+            <language>en</language>
+            <name>x_624695_librarym_return_books</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 04:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b867e5c2f68301055249dacf699b6d8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 04:00:15</sys_updated_on>
+            <value>pg_m</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remarks</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1-Pages Torn</label>
+            <language>en</language>
+            <name>x_624695_librarym_return_books</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 03:59:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c266fed82f68301055249dacf699b6d5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 03:59:07</sys_updated_on>
+            <value>pg_t</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

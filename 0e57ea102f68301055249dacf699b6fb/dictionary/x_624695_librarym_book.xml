@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Book" max_length="40" name="x_624695_librarym_book" type="collection">
+        <element label="Author" max_length="40" name="author" type="string"/>
+        <element label="Book Count" max_length="40" name="book_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Book Id" max_length="40" name="book_id" type="string"/>
+        <element label="Book Name" max_length="40" name="book_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Related to" max_length="40" name="related_to" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CIVIL" value="civ"/>
+                <element inactive_on_update="false" label="CSE" value="cs"/>
+                <element inactive_on_update="false" label="ECE" value="ece"/>
+                <element inactive_on_update="false" label="EEE" value="eee"/>
+                <element inactive_on_update="false" label="IT" value="it"/>
+                <element inactive_on_update="false" label="MECHANICAL" value="mec"/>
+                <element inactive_on_update="false" label="Other" value="oth"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Journal" value="jn"/>
+                <element inactive_on_update="false" label="Novel" value="nov"/>
+                <element inactive_on_update="false" label="Other" value="oth"/>
+                <element inactive_on_update="false" label="Story Book" value="sb"/>
+                <element inactive_on_update="false" label="Textbook" value="tb"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
