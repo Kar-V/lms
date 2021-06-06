@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_624695_librarym_return_books</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_624695_librarym_return_books">user_idISNOTEMPTY^EQ<item endquery="false" field="user_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Fine Calculation and Deadline date fill</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    /*var gr = new GlideRecord("x_624695_librarym_issue_books");
+    var val = gr.addQuery('user_id', curr.user_id);
+    gr.Query();
+    gr.info(val);*/
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 14:58:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d84eca742fa4301055249dacf699b6c2</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>Fine Calculation and Deadline date fill</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_update_name>sys_script_d84eca742fa4301055249dacf699b6c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 05:05:58</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=d84eca742fa4301055249dacf699b6c2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">0e57ea102f68301055249dacf699b6fb</application>
+        <file_path/>
+        <instance_id>66d3470edbe17384387021c4059619cd</instance_id>
+        <instance_name>dev86327</instance_name>
+        <name>sys_script_d84eca742fa4301055249dacf699b6c2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_624695_librarym_return_books&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_624695_librarym_return_books"&gt;user_idISNOTEMPTY^EQ&lt;item endquery="false" field="user_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Fine Calculation and Deadline date fill&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    /*var gr = new GlideRecord("x_624695_librarym_issue_books");
+    var val = gr.addQuery('user_id', curr.user_id);
+    gr.Query();
+    gr.info(val);*/
+
+
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-02 14:58:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d84eca742fa4301055249dacf699b6c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;58&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fine Calculation and Deadline date fill&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management" source="x_624695_librarym"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d84eca742fa4301055249dacf699b6c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-04 05:05:58&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d84eca742fa4301055249dacf699b6c2"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-185628854</payload_hash>
+        <record_name>Fine Calculation and Deadline date fill</record_name>
+        <reverted_from/>
+        <source>70e007142fa8301055249dacf699b67f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 05:05:58</sys_created_on>
+        <sys_id>9092eed92f2c701055249dacf699b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179d569eaa50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 05:05:58</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>5892eed9852c701040d45f67923dc081</update_guid>
+        <update_guid_history>5892eed9852c701040d45f67923dc081:-185628854,8e67ff89516470107d756b49c1314487:-574309206,caf63f891b6470100b8e29fc4dfe353e:-1478755482,4d46bf09286470105f0d572393a07eaf:-20275585,d792efc9cc247010b3f3d2945416ce56:844344404,9c61efc98f247010ad84c71be4728e1d:-1972484792,7a1a93850c247010447cbd23079d5910:-680377108,76b9db45aa247010a8b0caf936d64059:-943140675,8a791f450e247010faa51255532070f3:-256237713,5109db4547247010232cc727dfcd2e50:137389121,1c281345a7247010e7b80987a239abfa:79086284,a8d69305ae24701019999e61f6e75b4b:-396783371,8136dbc132247010d814b4c39bbc6c4d:-780283359,54165bc1ba24701008207e542c38996b:-461536116,ddc49701b424701030723cec227d0e17:552041901,b3119fcd13e0701085d5f508c59e657e:-1016953585,5c905fcd74e07010cc2f664427adafd9:206233668,a587aac1f5a070109d6af933c2ce19b5:1093883749,2055aa419da0701075b1eb9fb38a592e:1964058482,0254aa41ada07010fee19949af68450a:847890832,ec836a0153a0701006110fb7c9d6b096:-322491493,49e1ea8dbc6070106dd216e2fcee967b:2059620401,d611e2cdb96070105c0262fee0d3ae79:-1095178525,c0406e4de060701099e03ce7372d0233:-500611895,e58f128dba6070107f6b46a633a4fe32:-740432793,bb9e960d55607010bca2a368389b7067:2059567460,772e960d7c607010fa7a8b65bac00b76:143585760,dd1d960d32607010a1785393d121da4c:1887673369,4b1ea1c96eec30100e1780a6c54c1b2e:792869752,ebcce989c2ec3010a8d0bf6f6051e14e:526545273,214e6801c86c30109990d4bf4cc642de:1908798990,043ca88d882c30100ec03b3bf7478098:1513227101,6a8b204dc12c30105d21ae71fd464947:-1115454295,716bec0df52c3010dccc780147dca7d7:1725323096,17a5fe306e283010e9d31dc9418dff32:547277390,df653e307a2830103863e7689a667fac:1574079810,fd657e307c28301079c5d4d65ac2c1c5:547277390,df25ba300c283010751a6f618930ecb7:1574079810,47d4b6fcc0e4301001de288cab70f692:-1561018329,77a37afcf9e4301024182dcca25fc4e5:344884383,94123abc71e430102bdacffebfc3d82c:1071871209,29117e7c4ae4301039dc9742625b9f0a:-737036055,9e2da2f8f4e43010a042c26c7175a563:543140302,e439eeb43ee430106e49ca78c145f89a:-723341994,58066274e7e43010e253a939b76a4fde:1802217018,7cb522b43ce43010d367bf1e4c17676a:1776446312,b1cd92302ee4301036bc080e3241359f:703890180,9e9b16fc96a43010c099e9ca852a729a:2093111129,342bdabc76a4301096411dc76fa4d07f:89150121,3b8a16bc4da430109cea314b7fd6b41e:2011520240,abe99e7c07a430105e47c92e893c6318:-1667212295,6d895a7c7da4301001d293c92a9c9b95:-1375756295,5669527c26a43010a0f0f7c93a835a6a:-1838245648,2d595a7c73a430105e3743d447a75b1d:1973193193,29e8167ca8a43010203c24b803fc641f:-727253184,cb289a3cf4a430102447c68f1f72e404:2042445274,be87523cc5a430100d38a0dc4774afa8:602310859,9877123cbca43010e23b349360a38c3f:1127497029,85f6d6f82da430106c455b55be99e769:1827331004</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 05:07:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>75df40e11a8440b2984fdff1432c6869</sys_id>
+        <sys_metadata>d84eca742fa4301055249dacf699b6c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fine Calculation and Deadline date fill</sys_name>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_parent display_value="Return Books">81a5b25c2f68301055249dacf699b690</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_scope_delete display_value="">3cddb3479bee44a6a5b3fe056c34bea9</sys_scope_delete>
+        <sys_update_name>sys_script_d84eca742fa4301055249dacf699b6c2</sys_update_name>
+        <sys_update_version display_value="sys_script_d84eca742fa4301055249dacf699b6c2">9092eed92f2c701055249dacf699b682</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 05:07:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

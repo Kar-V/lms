@@ -4,13 +4,13 @@
             <element>user_id</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 04:04:31</sys_created_on>
-            <sys_id>2ab77e9c2f68301055249dacf699b63a</sys_id>
+            <sys_created_on>2021-06-04 05:34:24</sys_created_on>
+            <sys_id>2419ee112f6c701055249dacf699b63a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 04:04:31</sys_updated_on>
+            <sys_updated_on>2021-06-04 05:34:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>book_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 04:04:31</sys_created_on>
-            <sys_id>aab77e9c2f68301055249dacf699b63a</sys_id>
+            <sys_created_on>2021-06-04 05:34:24</sys_created_on>
+            <sys_id>a419ee112f6c701055249dacf699b63a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 04:04:31</sys_updated_on>
+            <sys_updated_on>2021-06-04 05:34:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,41 +32,41 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 04:04:31</sys_created_on>
-            <sys_id>2eb77e9c2f68301055249dacf699b63a</sys_id>
+            <sys_created_on>2021-06-04 05:34:24</sys_created_on>
+            <sys_id>e819ee112f6c701055249dacf699b678</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 04:04:31</sys_updated_on>
+            <sys_updated_on>2021-06-04 05:34:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dead_line</element>
+            <element>returndate</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 04:04:31</sys_created_on>
-            <sys_id>aeb77e9c2f68301055249dacf699b63a</sys_id>
+            <sys_created_on>2021-06-04 05:34:24</sys_created_on>
+            <sys_id>6c19ee112f6c701055249dacf699b678</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 04:04:31</sys_updated_on>
+            <sys_updated_on>2021-06-04 05:34:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>return_date</element>
+            <element>deadline</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 04:04:31</sys_created_on>
-            <sys_id>22b77e9c2f68301055249dacf699b63b</sys_id>
+            <sys_created_on>2021-06-04 05:34:24</sys_created_on>
+            <sys_id>ec19ee112f6c701055249dacf699b678</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 04:04:31</sys_updated_on>
+            <sys_updated_on>2021-06-04 05:34:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,27 +74,41 @@
             <element>remarks</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 04:04:31</sys_created_on>
-            <sys_id>a2b77e9c2f68301055249dacf699b63b</sys_id>
+            <sys_created_on>2021-06-04 05:34:24</sys_created_on>
+            <sys_id>6019ee112f6c701055249dacf699b679</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 04:04:31</sys_updated_on>
+            <sys_updated_on>2021-06-04 05:34:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_fine</element>
+            <element>totalfine</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 04:04:31</sys_created_on>
-            <sys_id>26b77e9c2f68301055249dacf699b63b</sys_id>
+            <sys_created_on>2021-06-04 05:34:24</sys_created_on>
+            <sys_id>e019ee112f6c701055249dacf699b679</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 04:04:31</sys_updated_on>
+            <sys_updated_on>2021-06-04 05:34:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datediff</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-04 08:37:56</sys_created_on>
+            <sys_id>8513d7dd2fac701055249dacf699b6bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_624695_librarym_return_books" sys_domain="global" view="Default view">7097fa9c2f68301055249dacf699b696</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-04 08:37:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

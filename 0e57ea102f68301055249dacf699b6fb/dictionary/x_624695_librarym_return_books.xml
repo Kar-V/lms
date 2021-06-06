@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Return Books" max_length="40" name="x_624695_librarym_return_books" type="collection">
-        <element label="Book Id" max_length="40" name="book_id" type="string"/>
-        <element label="Dead Line" max_length="40" name="dead_line" type="glide_date"/>
+    <element label="Return Books" max_length="40" name="x_624695_librarym_return_books" sizeclass="15094" type="collection">
+        <element label="Book Id" max_length="32" name="book_id" reference="x_624695_librarym_book" type="reference"/>
+        <element label="Datediff" max_length="40" name="datediff" type="integer"/>
+        <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
         <element choice="1" label="Remarks" max_length="40" name="remarks" type="choice">
             <choice>
-                <element inactive_on_update="false" label="1-Pages Torn" value="pg_t"/>
-                <element inactive_on_update="false" label="2-Book Torn" value="bk_t"/>
-                <element inactive_on_update="false" label="3-Pages Missing" value="pg_m"/>
+                <element inactive_on_update="false" label="Book Torn" value="10"/>
+                <element inactive_on_update="false" label="Pages Missing" value="15"/>
+                <element inactive_on_update="false" label="pagestorn" value="20"/>
             </choice>
         </element>
-        <element label="Return Date" max_length="40" name="return_date" type="glide_date"/>
-        <element label="Total fine" max_length="40" name="total_fine" type="float"/>
+        <element label="Returndate" max_length="40" name="returndate" type="glide_date"/>
+        <element label="Totalfine" max_length="40" name="totalfine" type="float"/>
         <element label="User Id" max_length="40" name="user_id" type="string"/>
+        <index name="index">
+            <element name="book_id"/>
+        </index>
     </element>
 </database>

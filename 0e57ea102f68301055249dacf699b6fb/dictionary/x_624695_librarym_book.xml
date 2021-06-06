@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Book" max_length="40" name="x_624695_librarym_book" type="collection">
+    <element label="Book" max_length="40" name="x_624695_librarym_book" sizeclass="5" type="collection">
         <element label="Author" max_length="40" name="author" type="string"/>
         <element label="Book Count" max_length="40" name="book_count" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Book Id" max_length="40" name="book_id" type="string"/>

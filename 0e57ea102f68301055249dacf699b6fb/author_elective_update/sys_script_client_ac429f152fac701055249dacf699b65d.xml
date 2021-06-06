@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>book_id</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>DateDiff</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    var strt = g_form.getValue('Deadline'); //set this as purchase date
+    var end = g_form.getValue('Returndate'); //set this as repair date
+    var ajax = new GlideAjax('AjaxDurCalc');
+    ajax.addParam('sysparm_name', 'durCalc');
+    ajax.addParam('sysparm_strt', strt);
+    ajax.addParam('sysparm_end', end);
+    ajax.getXMLWait();
+    var answer = ajax.getAnswer();
+    g_form.setValue(Datediff, answer);
+}
+
+//Type appropriate comment here, and begin script below
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 08:43:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac429f152fac701055249dacf699b65d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DateDiff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_update_name>sys_script_client_ac429f152fac701055249dacf699b65d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 08:48:38</sys_updated_on>
+        <table>x_624695_librarym_return_books</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">0e57ea102f68301055249dacf699b6fb</application>
+        <file_path/>
+        <instance_id>66d3470edbe17384387021c4059619cd</instance_id>
+        <instance_name>dev86327</instance_name>
+        <name>sys_script_client_ac429f152fac701055249dacf699b65d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;book_id&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;DateDiff&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    var strt = g_form.getValue('Deadline'); //set this as purchase date
+    var end = g_form.getValue('Returndate'); //set this as repair date
+    var ajax = new GlideAjax('AjaxDurCalc');
+    ajax.addParam('sysparm_name', 'durCalc');
+    ajax.addParam('sysparm_strt', strt);
+    ajax.addParam('sysparm_end', end);
+    ajax.getXMLWait();
+    var answer = ajax.getAnswer();
+    g_form.setValue(Datediff, answer);
+}
+
+//Type appropriate comment here, and begin script below
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-04 08:43:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ac429f152fac701055249dacf699b65d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;DateDiff&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management" source="x_624695_librarym"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ac429f152fac701055249dacf699b65d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-04 08:48:38&lt;/sys_updated_on&gt;&lt;table&gt;x_624695_librarym_return_books&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1196058668</payload_hash>
+        <record_name>DateDiff</record_name>
+        <reverted_from/>
+        <source>70e007142fa8301055249dacf699b67f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 08:48:38</sys_created_on>
+        <sys_id>b58597dd2fac701055249dacf699b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179d635c58a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 08:48:38</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>fd8597dd6cac7010ffc73d6602806ada</update_guid>
+        <update_guid_history>fd8597dd6cac7010ffc73d6602806ada:1196058668,8b05df1181ec70108b77c6ca6cf429f8:-339942458,5954db1138ec7010012293f6e1a001ad:-29160776</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 08:48:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>02541f12af58424890f2dbf5a63c1b31</sys_id>
+        <sys_metadata>ac429f152fac701055249dacf699b65d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DateDiff</sys_name>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_parent display_value="Return Books">81a5b25c2f68301055249dacf699b690</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_scope_delete display_value="">3cddb3479bee44a6a5b3fe056c34bea9</sys_scope_delete>
+        <sys_update_name>sys_script_client_ac429f152fac701055249dacf699b65d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ac429f152fac701055249dacf699b65d">b58597dd2fac701055249dacf699b6db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 08:48:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

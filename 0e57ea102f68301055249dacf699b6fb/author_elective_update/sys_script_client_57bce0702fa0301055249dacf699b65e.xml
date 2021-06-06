@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>book_id</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Return Date Fill</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1;
+	var yyyy = today.getFullYear();
+	g_form.setValue('issuedate',dd+"-"+mm+"-"+yyyy);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 07:20:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57bce0702fa0301055249dacf699b65e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Return Date Fill</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_update_name>sys_script_client_57bce0702fa0301055249dacf699b65e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 07:22:54</sys_updated_on>
+        <table>x_624695_librarym_return_books</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">0e57ea102f68301055249dacf699b6fb</application>
+        <file_path/>
+        <instance_id>66d3470edbe17384387021c4059619cd</instance_id>
+        <instance_name>dev86327</instance_name>
+        <name>sys_script_client_57bce0702fa0301055249dacf699b65e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;book_id&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Return Date Fill&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1;
+	var yyyy = today.getFullYear();
+	g_form.setValue('issuedate',dd+"-"+mm+"-"+yyyy);
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-02 07:20:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;57bce0702fa0301055249dacf699b65e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Return Date Fill&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management" source="x_624695_librarym"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_57bce0702fa0301055249dacf699b65e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-02 07:22:54&lt;/sys_updated_on&gt;&lt;table&gt;x_624695_librarym_return_books&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1480924759</payload_hash>
+        <record_name>Return Date Fill</record_name>
+        <reverted_from/>
+        <source>70e007142fa8301055249dacf699b67f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 07:22:54</sys_created_on>
+        <sys_id>22bea4b02fa0301055249dacf699b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179cb9a8eee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 07:22:54</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6abea4b0c6a03010e1880dec34d17170</update_guid>
+        <update_guid_history>6abea4b0c6a03010e1880dec34d17170:-1480924759,dd9ea8b0b0a03010cdd3827641188441:465020341,e26ee4b095a03010e6ae20b9572bf6f9:-390530432,221ee0709fa0301012ba48899ed7a8d6:892890330</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 07:23:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>079566551ddf436e9670cd9eabc38279</sys_id>
+        <sys_metadata>57bce0702fa0301055249dacf699b65e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return Date Fill</sys_name>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_parent display_value="Return Books">81a5b25c2f68301055249dacf699b690</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_scope_delete display_value="">3cddb3479bee44a6a5b3fe056c34bea9</sys_scope_delete>
+        <sys_update_name>sys_script_client_57bce0702fa0301055249dacf699b65e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_57bce0702fa0301055249dacf699b65e">22bea4b02fa0301055249dacf699b671</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 07:23:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

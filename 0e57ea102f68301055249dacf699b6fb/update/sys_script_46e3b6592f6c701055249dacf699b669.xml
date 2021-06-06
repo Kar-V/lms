@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_624695_librarym_return_books</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Delay and Fine</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	var val=current.returndate;
+	var parts =val.split('-');
+	var date1 = new Date(parts[0], parts[1] - 1, parts[2]); 
+	var val2=current.deadline;
+	var parts2 =val2.split('-');
+	var date2 = new Date(parts2[0], parts2[1] - 1, parts2[2]); 
+	var diffTime = Math.abs(date2 - date1);
+	var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+    if (current.remarks == "pagestorn") {
+        current.totalfine = 10.0;
+    } else if (current.remarks == "PagesMissing") {
+        current.totalfine = 15.0;
+    } else {
+        current.totalfine = 20.0;
+    }
+	gs.info("Current Value in remarks field is ::"+current.remarks);
+	current.Datediff=diffDays;
+	gs.info("Value in datediff is ::"+current.Datediff);
+	current.total_fine=current.total_fine+current.Datediff;
+	gs.info("The total fine value is ::"+current.totalfine);
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 06:24:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>46e3b6592f6c701055249dacf699b669</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Delay and Fine</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_update_name>sys_script_46e3b6592f6c701055249dacf699b669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 16:59:58</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=46e3b6592f6c701055249dacf699b669"/>
+</record_update>
