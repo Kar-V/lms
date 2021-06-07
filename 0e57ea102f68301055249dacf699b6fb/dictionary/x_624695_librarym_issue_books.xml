@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Issue books" max_length="40" name="x_624695_librarym_issue_books" sizeclass="2" type="collection">
+    <element label="Issue books" max_length="40" name="x_624695_librarym_issue_books" sizeclass="4" type="collection">
         <element label="Bookcount" max_length="40" name="bookcount" type="integer"/>
         <element label="Book Id" max_length="40" name="book_id" reference="x_624695_librarym_book" type="reference"/>
         <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
+        <element label="EmailId" max_length="40" name="emailid" type="string"/>
         <element label="Issuedate" max_length="40" name="issuedate" type="glide_date"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>

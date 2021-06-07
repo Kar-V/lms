@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Return Books" max_length="40" name="x_624695_librarym_return_books" sizeclass="15096" type="collection">
+    <element label="Return Books" max_length="40" name="x_624695_librarym_return_books" sizeclass="15100" type="collection">
         <element label="Book Id" max_length="32" name="book_id" reference="x_624695_librarym_book" type="reference"/>
         <element label="Datediff" max_length="40" name="datediff" type="integer"/>
         <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
+        <element label="EmailId" max_length="40" name="emailid" type="string"/>
         <element choice="1" label="Remarks" max_length="40" name="remarks" type="choice">
             <choice>
                 <element inactive_on_update="false" label="BookTorn" value="booktorn"/>
