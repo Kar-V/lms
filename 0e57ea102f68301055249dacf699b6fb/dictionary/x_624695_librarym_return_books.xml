@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Return Books" max_length="40" name="x_624695_librarym_return_books" sizeclass="15094" type="collection">
+    <element label="Return Books" max_length="40" name="x_624695_librarym_return_books" sizeclass="15096" type="collection">
         <element label="Book Id" max_length="32" name="book_id" reference="x_624695_librarym_book" type="reference"/>
         <element label="Datediff" max_length="40" name="datediff" type="integer"/>
         <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
         <element choice="1" label="Remarks" max_length="40" name="remarks" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Book Torn" value="10"/>
-                <element inactive_on_update="false" label="Pages Missing" value="15"/>
-                <element inactive_on_update="false" label="pagestorn" value="20"/>
+                <element inactive_on_update="false" label="BookTorn" value="booktorn"/>
+                <element inactive_on_update="false" label="PagesMissing" value="pagesmissing"/>
+                <element inactive_on_update="false" label="PagesTorn" value="pagestorn"/>
             </choice>
         </element>
         <element label="Returndate" max_length="40" name="returndate" type="glide_date"/>

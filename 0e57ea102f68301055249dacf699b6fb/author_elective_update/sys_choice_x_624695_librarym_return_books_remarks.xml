@@ -21,7 +21,7 @@
             <element>remarks</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Book Torn</label>
+            <label>BookTorn</label>
             <language>en</language>
             <name>x_624695_librarym_return_books</name>
             <sequence/>
@@ -31,17 +31,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>de767e1c2f68301055249dacf699b666</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-03 10:47:02</sys_updated_on>
-            <value>10</value>
+            <sys_updated_on>2021-06-06 14:04:31</sys_updated_on>
+            <value>booktorn</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>remarks</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Pages Missing</label>
+            <label>PagesMissing</label>
             <language>en</language>
             <name>x_624695_librarym_return_books</name>
             <sequence/>
@@ -51,17 +51,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1b867e5c2f68301055249dacf699b6d8</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-03 10:47:09</sys_updated_on>
-            <value>15</value>
+            <sys_updated_on>2021-06-06 14:04:53</sys_updated_on>
+            <value>pagesmissing</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>remarks</element>
             <hint/>
             <inactive>false</inactive>
-            <label>pagestorn</label>
+            <label>PagesTorn</label>
             <language>en</language>
             <name>x_624695_librarym_return_books</name>
             <sequence/>
@@ -71,10 +71,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c266fed82f68301055249dacf699b6d5</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-03 10:47:15</sys_updated_on>
-            <value>20</value>
+            <sys_updated_on>2021-06-06 14:05:16</sys_updated_on>
+            <value>pagestorn</value>
         </sys_choice>
     </sys_choice>
 </record_update>
