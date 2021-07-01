@@ -38,7 +38,7 @@
         <name>x_624695_librarym_user</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 03:41:30</sys_created_on>
         <sys_id>6a0236582f68301055249dacf699b67d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>No of books</sys_name>
         <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
         <sys_update_name>sys_dictionary_x_624695_librarym_user_no_of_books</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-01 03:41:30</sys_updated_on>
+        <sys_updated_on>2021-06-26 04:49:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

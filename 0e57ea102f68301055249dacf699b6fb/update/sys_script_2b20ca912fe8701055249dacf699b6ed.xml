@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
+        <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -32,15 +32,20 @@
     // Add your code here
     var gr = new GlideRecord("x_624695_librarym_return_books");
     gr.initialize();
+	if(current.bookcount<3)
+	{
     gr.user_id = current.user_id;
 	var bookval=current.book_id.getDisplayValue();
 	gr.emailid=current.emailid;
     gr.book_id.setDisplayValue(bookval);
     gr.deadline = current.deadline;
-    gr.insert();
-    gs.info("Value is ::" + current.user_id);
+	gr.insert();
+	gs.info("Inserted through deadline automatic");
+	}
+    
+    /*gs.info("Value is ::" + current.user_id);
 	gs.info("Value of book is ::"+current.book_id.getDisplayValue());
-	gs.info("Value in gr field is ::"+gr.book_id);
+	gs.info("Value in gr field is ::"+gr.book_id);*/
 
 }
 )(current, previous);]]></script>
@@ -50,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2b20ca912fe8701055249dacf699b6ed</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Deadline Automatic</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
@@ -58,7 +63,7 @@
         <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
         <sys_update_name>sys_script_2b20ca912fe8701055249dacf699b6ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-07 11:10:26</sys_updated_on>
+        <sys_updated_on>2021-06-08 14:33:00</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

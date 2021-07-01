@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Issue books" max_length="40" name="x_624695_librarym_issue_books" sizeclass="4" type="collection">
-        <element label="Bookcount" max_length="40" name="bookcount" type="integer"/>
-        <element label="Book Id" max_length="40" name="book_id" reference="x_624695_librarym_book" type="reference"/>
-        <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
-        <element label="EmailId" max_length="40" name="emailid" type="string"/>
-        <element label="Issuedate" max_length="40" name="issuedate" type="glide_date"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+    <element label="Issue books" max_length="40" name="x_624695_librarym_issue_books" sizeclass="9" type="collection">
+        <element choice="1" label="Approval" max_length="40" name="approval" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Issued" value="issued"/>
-                <element inactive_on_update="false" label="Not Issued" value="nissued"/>
+                <element inactive_on_update="false" label="approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="rejected" sequence="1" value="rejected"/>
+                <element inactive_on_update="false" label="requested" sequence="2" value="requested"/>
             </choice>
         </element>
-        <element label="User Id" max_length="40" name="user_id" type="string"/>
+        <element label="Bookcount" max_length="40" name="bookcount" read_only="true" type="integer"/>
+        <element label="Book Id" mandatory="true" max_length="40" name="book_id" reference="x_624695_librarym_book" type="reference"/>
+        <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
+        <element label="EmailId" max_length="40" name="emailid" read_only="true" type="string"/>
+        <element label="Issuedate" max_length="40" name="issuedate" read_only="true" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Approved" sequence="0" value="ap"/>
+                <element inactive_on_update="false" label="submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Issued" sequence="1" value="issued"/>
+                <element inactive="true" inactive_on_update="true" label="Rejected" sequence="1" value="rj"/>
+                <element inactive_on_update="false" label="Not Issued" sequence="2" value="not issued"/>
+                <element inactive="true" inactive_on_update="true" label="Requested for Approval" sequence="2" value="rfa"/>
+            </choice>
+        </element>
+        <element label="User Id" mandatory="true" max_length="40" name="user_id" type="string"/>
     </element>
 </database>

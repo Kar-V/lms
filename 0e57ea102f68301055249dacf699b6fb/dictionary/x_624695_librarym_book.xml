@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Book" max_length="40" name="x_624695_librarym_book" sizeclass="6" type="collection">
-        <element label="Author" max_length="40" name="author" type="string"/>
+        <element label="Author" mandatory="true" max_length="40" name="author" type="string"/>
         <element label="Book Count" max_length="40" name="book_count" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Book Id" max_length="40" name="book_id" type="string"/>
-        <element label="Book Name" max_length="40" name="book_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Book Id" mandatory="true" max_length="40" name="book_id" type="string"/>
+        <element label="Book Name" mandatory="true" max_length="40" name="book_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Related to" max_length="40" name="related_to" type="choice">
             <choice>

@@ -20,21 +20,81 @@
             <dependent_value/>
             <element>status</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_624695_librarym_issue_books</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-08 02:43:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad48ee2e2fa0741055249dacf699b6cc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-08 05:22:28</sys_updated_on>
+            <value>ap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>submitted</label>
+            <language>en</language>
+            <name>x_624695_librarym_issue_books</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-08 05:22:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74bc43e62f24741055249dacf699b60a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-08 05:22:28</sys_updated_on>
+            <value>submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Issued</label>
             <language>en</language>
             <name>x_624695_librarym_issue_books</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-06-01 03:53:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>07243ed82f68301055249dacf699b61a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 03:53:57</sys_updated_on>
+            <sys_updated_on>2021-06-08 05:22:28</sys_updated_on>
             <value>issued</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_624695_librarym_issue_books</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-08 02:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d58ee2e2fa0741055249dacf699b6cd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-08 05:22:28</sys_updated_on>
+            <value>rj</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -44,17 +104,37 @@
             <label>Not Issued</label>
             <language>en</language>
             <name>x_624695_librarym_issue_books</name>
-            <sequence/>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-01 03:54:35</sys_created_on>
+            <sys_created_on>2021-06-08 05:22:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3a25761c2f68301055249dacf699b68c</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>7cbc43e62f24741055249dacf699b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-01 03:54:45</sys_updated_on>
-            <value>nissued</value>
+            <sys_updated_on>2021-06-08 05:22:28</sys_updated_on>
+            <value>not issued</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Requested for Approval</label>
+            <language>en</language>
+            <name>x_624695_librarym_issue_books</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-08 02:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7718666e2fa0741055249dacf699b6f1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-08 05:22:28</sys_updated_on>
+            <value>rfa</value>
         </sys_choice>
     </sys_choice>
 </record_update>
