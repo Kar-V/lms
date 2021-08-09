@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="book_count" label="Book Count" language="en" table="x_624695_librarym_book">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>book_count</element>
+            <help/>
+            <hint/>
+            <label>Book Count</label>
+            <language>en</language>
+            <name>x_624695_librarym_book</name>
+            <plural>Book Counts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 02:57:10</sys_created_on>
+            <sys_id>84582a902f68301055249dacf699b6de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Book Count</sys_name>
+            <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+            <sys_update_name>sys_documentation_x_624695_librarym_book_book_count_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 02:57:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

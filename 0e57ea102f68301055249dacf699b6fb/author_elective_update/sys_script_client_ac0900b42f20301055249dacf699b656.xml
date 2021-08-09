@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>book_id</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Automatic Date</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1;
+	var yyyy = today.getFullYear();
+	g_form.setValue('Issue Date',dd+"-"+mm+"-"+yyyy);
+	today.setDate(today.getDate() + 15);
+	var dd2 = today.getDate();
+	var mm2 = today.getMonth()+1;
+	var yyyy2 = today.getFullYear();
+	g_form.setValue('Deadline',dd2+"-"+mm2+"-"+yyyy2);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 04:40:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac0900b42f20301055249dacf699b656</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Automatic Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_update_name>sys_script_client_ac0900b42f20301055249dacf699b656</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 04:51:10</sys_updated_on>
+        <table>x_624695_librarym_issue_books</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">0e57ea102f68301055249dacf699b6fb</application>
+        <file_path/>
+        <instance_id>66d3470edbe17384387021c4059619cd</instance_id>
+        <instance_name>dev86327</instance_name>
+        <name>sys_script_client_ac0900b42f20301055249dacf699b656</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;book_id&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Automatic Date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1;
+	var yyyy = today.getFullYear();
+	g_form.setValue('Issue Date',dd+"-"+mm+"-"+yyyy);
+	today.setDate(today.getDate() + 15);
+	var dd2 = today.getDate();
+	var mm2 = today.getMonth()+1;
+	var yyyy2 = today.getFullYear();
+	g_form.setValue('Deadline',dd2+"-"+mm2+"-"+yyyy2);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-02 04:40:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ac0900b42f20301055249dacf699b656&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Automatic Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management" source="x_624695_librarym"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;0e57ea102f68301055249dacf699b6fb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ac0900b42f20301055249dacf699b656&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-02 04:51:10&lt;/sys_updated_on&gt;&lt;table&gt;x_624695_librarym_issue_books&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1371659117</payload_hash>
+        <record_name>Automatic Date</record_name>
+        <reverted_from/>
+        <source>70e007142fa8301055249dacf699b67f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 04:51:10</sys_created_on>
+        <sys_id>400cc0b82f20301055249dacf699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179cb0fa60a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 04:51:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>880cc0b860203010d0c97a88ad54a6c9</update_guid>
+        <update_guid_history>880cc0b860203010d0c97a88ad54a6c9:-1371659117,f1ebcc78e820301088c07fb88636b09d:-2066422947,940bc838cb2030108cca473ad400d8d1:-1704159667,b6ca00782b203010f434a2809623b5bf:-522155475,990a8cf429203010402cff03234ab734:-1629646733,d3994cf4512030103fa23e2bcf419420:1401870761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 04:55:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>96a234990a064a00818195dfe8a30a04</sys_id>
+        <sys_metadata>ac0900b42f20301055249dacf699b656</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automatic Date</sys_name>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_parent display_value="Issue books">2f73b2d82f68301055249dacf699b60e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_scope_delete display_value="">3cddb3479bee44a6a5b3fe056c34bea9</sys_scope_delete>
+        <sys_update_name>sys_script_client_ac0900b42f20301055249dacf699b656</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ac0900b42f20301055249dacf699b656">400cc0b82f20301055249dacf699b6ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 04:55:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="book_id" label="Book Id" language="en" table="x_624695_librarym_return_books">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>book_id</element>
+            <help/>
+            <hint/>
+            <label>Book Id</label>
+            <language>en</language>
+            <name>x_624695_librarym_return_books</name>
+            <plural>Book Ids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 03:57:57</sys_created_on>
+            <sys_id>5a367a5c2f68301055249dacf699b66f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Book Id</sys_name>
+            <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+            <sys_update_name>sys_documentation_x_624695_librarym_return_books_book_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 03:57:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

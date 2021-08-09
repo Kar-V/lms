@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="issuedate" label="Issuedate" language="en" table="x_624695_librarym_issue_books">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>issuedate</element>
+            <help/>
+            <hint/>
+            <label>Issuedate</label>
+            <language>en</language>
+            <name>x_624695_librarym_issue_books</name>
+            <plural>Issuedates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-04 06:08:16</sys_created_on>
+            <sys_id>30d0be952f6c701055249dacf699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Issuedate</sys_name>
+            <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+            <sys_update_name>sys_documentation_x_624695_librarym_issue_books_issuedate_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-04 06:08:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

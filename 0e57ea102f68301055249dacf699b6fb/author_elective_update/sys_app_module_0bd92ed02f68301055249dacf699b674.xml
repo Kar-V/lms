@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="User">6680221c2f28301055249dacf699b655</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Users</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_624695_librarym_user</name>
+        <order/>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_624695_librarym.user_user,admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 03:03:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bd92ed02f68301055249dacf699b674</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_update_name>sys_app_module_0bd92ed02f68301055249dacf699b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 03:29:37</sys_updated_on>
+        <timeline_page/>
+        <title>Users</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">0e57ea102f68301055249dacf699b6fb</application>
+        <file_path/>
+        <instance_id>66d3470edbe17384387021c4059619cd</instance_id>
+        <instance_name>dev86327</instance_name>
+        <name>sys_app_module_0bd92ed02f68301055249dacf699b674</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="User">6680221c2f28301055249dacf699b655</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Users</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_624695_librarym_user</name><order/><override_menu_roles>true</override_menu_roles><query/><report/><roles>x_624695_librarym.user_user,admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-01 03:03:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0bd92ed02f68301055249dacf699b674</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Users</sys_name><sys_overrides/><sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package><sys_policy/><sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope><sys_update_name>sys_app_module_0bd92ed02f68301055249dacf699b674</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-01 03:29:37</sys_updated_on><timeline_page/><title>Users</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>354765228</payload_hash>
+        <record_name>Users</record_name>
+        <reverted_from/>
+        <source>0a57ea102f68301055249dacf699b6fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 03:29:37</sys_created_on>
+        <sys_id>afbfa2182f68301055249dacf699b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179c59e9fae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 03:29:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2bbfa218c768301032ed2d164c7581ea</update_guid>
+        <update_guid_history>2bbfa218c768301032ed2d164c7581ea:354765228,a58fa2188f683010baf339fb3a0b10e2:211277061,43d92ed0976830100cfbc14dd3088a76:358531874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Users">5ac0f2582f68301055249dacf699b66b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 03:34:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4be466b9fb9d41b7ae70c3eee89c1a71</sys_id>
+        <sys_metadata>0bd92ed02f68301055249dacf699b674</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users</sys_name>
+        <sys_package display_value="Library Management" source="x_624695_librarym">0e57ea102f68301055249dacf699b6fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">0e57ea102f68301055249dacf699b6fb</sys_scope>
+        <sys_scope_delete display_value="">3cddb3479bee44a6a5b3fe056c34bea9</sys_scope_delete>
+        <sys_update_name>sys_app_module_0bd92ed02f68301055249dacf699b674</sys_update_name>
+        <sys_update_version display_value="sys_app_module_0bd92ed02f68301055249dacf699b674">afbfa2182f68301055249dacf699b6ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 03:34:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
